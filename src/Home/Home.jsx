@@ -2,7 +2,11 @@
 
 const Home = () => {
     return (
-        <div>
+        <div className="text-center text-7xl">
+            Home
+            Home
+            Home
+            Home
             Home
         </div>
     );
