@@ -2,17 +2,18 @@ import {  Outlet } from "react-router-dom";
 import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
 import Navbar from "../Navbar/Navbar";
-
+// xl:ml-[55px]
 const Layout = () => {
   return (
-    <div className="bg-[#f2e8e9] min-w-full  min-h-screen mx-auto">
-      <div className="lg:w-[1285px] mx-auto ">
+    
+     <div className="bg-[#9e9797] min-w-full min-h-screen ">
+      <div>
         <Navbar></Navbar>
       </div>
-      <div className=" lg:w-[1385px] lg:min-h-[745px] mx-auto pt-16">
+      <div className=" xl:w-[1385px] xl:min-h-[745px] mx-auto pt-20">
        
-        <div className="flex flex-col lg:flex-row lg:ml-[55px] lg:w-[1280px] bg-gradient-to-b from-purple-600 to-indigo-600 rounded-3xl  border border-red-700">
-          <div className="lg:w-[385px] lg:min-h-[745px] ">
+        <div className="flex flex-col xl:flex-row  xl:w-[1280px] bg-gradient-to-b from-purple-600 to-indigo-600 rounded-3xl  border border-red-700">
+          <div className="xl:w-[385px] xl:min-h-[745px] ">
             
             <div className="avatar ml-20 mt-10 ">
               <div className="w-60 rounded-full  border-4 drop-shadow-xl ring-offset-2">
