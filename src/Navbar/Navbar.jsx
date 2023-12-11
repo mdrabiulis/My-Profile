@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="flex justify-center ">
-      <div className="navbar bg-base-100 rounded-b-3xl fixed z-50 max-w-[1280px] mx-auto    xl:-ml-24">
-        <div className="navbar-start">
+      <div className="navbar bg-base-100 rounded-b-3xl fixed z-50 max-w-[1280px] mx-auto xl:-ml-24 border border-red-900">
+        <div className="navbar-start md:w-[30%] lg:w-[40%] border border-red-900">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
               <svg

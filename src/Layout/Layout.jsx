@@ -7,7 +7,7 @@ const Layout = () => {
   return (
     
      <div className="bg-[#9e9797] min-w-full min-h-screen ">
-      <div>
+      <div className="">
         <Navbar></Navbar>
       </div>
       <div className=" xl:w-[1385px] xl:min-h-[745px] mx-auto pt-20">
@@ -16,7 +16,7 @@ const Layout = () => {
           <div className="xl:w-[385px] xl:min-h-[745px] ">
             
             <div className="avatar ml-20 mt-10 ">
-              <div className="w-60 rounded-full  border-4 drop-shadow-xl ring-offset-2">
+              <div className="w-60 rounded-full border-4 drop-shadow-xl ring-offset-2">
                 <img
                   src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
                   className=""
@@ -24,7 +24,7 @@ const Layout = () => {
               </div>
             </div>
             <div className="text-white text-center">
-              <h2 className=" text-3xl  font-bold uppercase mt-4">
+              <h2 className=" text-3xl font-bold uppercase mt-4">
                 md rabiul islam
               </h2>
               <h3 className="text-lg mt-4">Front-End Developer</h3>
@@ -42,7 +42,7 @@ const Layout = () => {
   </aside>
 </footer>
           </div>
-          <div className="flex-1 bg-orange-400 rounded-2xl">
+          <div className="flex-1 bg-white  rounded-2xl">
             <Outlet></Outlet>
           </div>
         </div>
