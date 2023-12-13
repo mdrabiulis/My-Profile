@@ -1,6 +1,6 @@
 import { TfiLocationPin } from "react-icons/tfi";
 import img from "../assets/google.png";
-
+ 
 const Contact = () => {
   return (
     <div className="pl-5 pt-4 overflow-auto h-[745px]">
