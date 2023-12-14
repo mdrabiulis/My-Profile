@@ -38,7 +38,7 @@ const Layout = () => {
             </div>
             <footer className="footer footer-center p-4  text-base-content mt-28">
   <aside>
-    <p className="text-white">© 2023 - Raviul | All rights reserved.</p>
+    <p className="text-white">© 2023 - Rabiul | All rights reserved.</p>
   </aside>
 </footer>
           </div>

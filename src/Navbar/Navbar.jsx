@@ -42,7 +42,7 @@ const Navbar = () => {
           </div>
         </div>
         {/* <div className="navbar-center hidden lg:flex "> */}
-        <div className=" border border-red-900  hidden md:flex">
+        <div className=" hidden md:flex">
           {/* <ul className="menu menu-horizontal px-1"> */}
           <ul className="flex gap-6  ">
             <li>
