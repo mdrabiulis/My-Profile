@@ -34,7 +34,7 @@ const Layout = () => {
                 <FaLinkedinIn className="w-6 h-6"></FaLinkedinIn>
                 <FaGithub className="w-6 h-6"></FaGithub>
               </div>
-              <button className="btn text-white badge-outline border-2 rounded-2xl hover:bg-white hover:text-indigo-600 mt-16">resume</button>
+              <a href="/public/ELECTRICITY BILL.pdf" download="Resume" target='_blank' ><button className="btn text-white badge-outline border-2 rounded-2xl hover:bg-white hover:text-indigo-600 mt-16">Resume</button></a>
             </div>
             <footer className="footer footer-center p-4  text-base-content mt-28">
   <aside>
