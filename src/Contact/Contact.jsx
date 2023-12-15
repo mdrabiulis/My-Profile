@@ -42,7 +42,6 @@ const Contact = () => {
                       <input
                         type="text"
                         name="name"
-                        readOnly
                         placeholder="Name"
                         className="input input-bordered"
                         required
