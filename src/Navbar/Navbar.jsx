@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="flex justify-center ">
-      <div className="navbar bg-base-100 rounded-b-3xl fixed z-50 w-[420px] md:w-[570px] lg:w-[1280px] mx-auto xl:-ml-24 border border-green-900">
-        <div className="navbar-start md:w-[30%] lg:w-[40%] border border-orange-600">
+      <div className="navbar bg-base-100 rounded-b-3xl fixed z-50 w-[420px] md:w-[570px] lg:w-[1280px] mx-auto xl:-ml-24">
+        <div className="navbar-start md:w-[30%] lg:w-[40%]">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
               <svg
@@ -26,17 +26,61 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
-          <li>
-              <NavLink to={"/"}>Home</NavLink>
+              <li>
+              <NavLink
+                to="/"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "bg-gradient-to-b from-purple-600 to-indigo-600 text-white p-2 rounded-md"
+                    : ""
+                }
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink to={"/aboutme"}>About Me</NavLink>
+              <NavLink
+                to="/aboutme"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "bg-gradient-to-b from-purple-600 to-indigo-600 text-white p-2 rounded-md"
+                    : ""
+                }
+              >
+                About Me
+              </NavLink>
             </li>
             <li>
-              <NavLink to={"/project"}>Project</NavLink>
+              <NavLink
+                to="/project"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "bg-gradient-to-b from-purple-600 to-indigo-600 text-white p-2 rounded-md"
+                    : ""
+                }
+              >
+                Project
+              </NavLink>
             </li>
             <li>
-              <NavLink to={"/contact"}>Contact</NavLink>
+              <NavLink
+                to="/contact"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "bg-gradient-to-b from-purple-600 to-indigo-600 text-white p-2 rounded-md"
+                    : ""
+                }
+              >
+                Contact
+              </NavLink>
             </li>
             </ul>
           </div>
@@ -46,16 +90,60 @@ const Navbar = () => {
           {/* <ul className="menu menu-horizontal px-1"> */}
           <ul className="flex gap-6  ">
             <li>
-              <NavLink to={"/"}>Home</NavLink>
+              <NavLink
+                to="/"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "bg-gradient-to-b from-purple-600 to-indigo-600 text-white p-2 rounded-md"
+                    : ""
+                }
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink to={"/aboutme"}>About Me</NavLink>
+              <NavLink
+                to="/aboutme"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "bg-gradient-to-b from-purple-600 to-indigo-600 text-white p-2 rounded-md"
+                    : ""
+                }
+              >
+                About Me
+              </NavLink>
             </li>
             <li>
-              <NavLink to={"/project"}>Project</NavLink>
+              <NavLink
+                to="/project"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "bg-gradient-to-b from-purple-600 to-indigo-600 text-white p-2 rounded-md"
+                    : ""
+                }
+              >
+                Project
+              </NavLink>
             </li>
             <li>
-              <NavLink to={"/contact"}>Contact</NavLink>
+              <NavLink
+                to="/contact"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "bg-gradient-to-b from-purple-600 to-indigo-600 text-white p-2 rounded-md"
+                    : ""
+                }
+              >
+                Contact
+              </NavLink>
             </li>
           </ul>
         </div>

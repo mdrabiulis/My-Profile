@@ -4,7 +4,7 @@ import img from "../assets/google.png";
 const Contact = () => {
   return (
     <div className="pl-5 pt-4 overflow-auto h-[745px]">
-      <h2 className="text-3xl font-bold my-4 border-2">Contact</h2>
+      <h2 className="text-3xl font-bold my-4">Contact</h2>
       <div className="flex flex-col lg:flex-row gap-7">
         <div className="grid grid-cols-2 lg:grid-cols-1 gap-2 w-full lg:w-[245px] mr-8 -ml-2 lg:-ml-0 lg:mr-0 lg:mb-10">
           <div className=" border-2 rounded-md drop-shadow-md bg-gray-50 text-center md:p-6 p-2  ">
